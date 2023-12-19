@@ -1,0 +1,63 @@
+[debug] [2023-12-19T17:01:55.361Z] ----------------------------------------------------------------------
+[debug] [2023-12-19T17:01:55.382Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2023-12-19T17:01:55.391Z] CLI Version:   13.0.2
+[debug] [2023-12-19T17:01:55.400Z] Platform:      win32
+[debug] [2023-12-19T17:01:55.403Z] Node Version:  v18.18.0
+[debug] [2023-12-19T17:01:55.442Z] Time:          Tue Dec 19 2023 22:31:55 GMT+0530 (India Standard Time)
+[debug] [2023-12-19T17:01:55.443Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-12-19T17:01:55.496Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[debug] [2023-12-19T17:02:17.725Z] *** [apiv2] error from fetch(https://firebase-public.firebaseio.com/cli.json, {"headers":{},"method":"GET"}): FetchError: request to https://firebase-public.firebaseio.com/cli.json failed, reason: connect ETIMEDOUT 2600:1901:0:4d00:::443
+[warn] !  Unable to fetch the CLI MOTD and remote config. This is not a fatal error, but may indicate an issue with your network connection. 
+[debug] [2023-12-19T17:02:17.731Z] Failed to fetch MOTD FirebaseError: Failed to make request to https://firebase-public.firebaseio.com/cli.json
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=559260439&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2023-12-19T17:03:40.929Z] >>> [apiv2][query] POST https://accounts.google.com/o/oauth2/token [none]
+[debug] [2023-12-19T17:03:40.931Z] >>> [apiv2][body] POST https://accounts.google.com/o/oauth2/token [omitted]
+[debug] [2023-12-19T17:04:02.330Z] *** [apiv2] error from fetch(https://accounts.google.com/o/oauth2/token, {"headers":{},"method":"POST","body":{"_overheadLength":543,"_valueLength":208,"_valuesToMeasure":[],"writable":false,"readable":true,"dataSize":0,"maxDataSize":2097152,"pauseStreams":true,"_released":true,"_streams":[],"_currentStream":null,"_insideLoop":false,"_pendingNext":false,"_boundary":"--------------------------281997756884272295892411","_events":{},"_eventsCount":1}}): FetchError: request to https://accounts.google.com/o/oauth2/token failed, reason: connect ETIMEDOUT 2404:6800:4003:c0f::54:443
+[debug] [2023-12-19T17:04:02.332Z] Token Fetch Error: FirebaseError: Failed to make request to https://accounts.google.com/o/oauth2/token
+    at RetryOperation._fn (C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:246:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[debug] [2023-12-19T17:04:02.361Z] >>> [apiv2][query] POST https://auth.firebase.tools/attest [none]
+[debug] [2023-12-19T17:04:02.362Z] >>> [apiv2][body] POST https://auth.firebase.tools/attest {"session_id":"27bb75aa-f433-497d-8997-99e62e4371d2"}
+[debug] [2023-12-19T17:04:35.882Z] ----------------------------------------------------------------------
+[debug] [2023-12-19T17:04:35.891Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2023-12-19T17:04:35.894Z] CLI Version:   13.0.2
+[debug] [2023-12-19T17:04:35.898Z] Platform:      win32
+[debug] [2023-12-19T17:04:35.899Z] Node Version:  v18.18.0
+[debug] [2023-12-19T17:04:35.920Z] Time:          Tue Dec 19 2023 22:34:35 GMT+0530 (India Standard Time)
+[debug] [2023-12-19T17:04:35.921Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-12-19T17:04:35.939Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=136496884&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2023-12-19T17:04:55.333Z] >>> [apiv2][query] POST https://accounts.google.com/o/oauth2/token [none]
+[debug] [2023-12-19T17:04:55.334Z] >>> [apiv2][body] POST https://accounts.google.com/o/oauth2/token [omitted]
+[debug] [2023-12-19T17:04:57.947Z] *** [apiv2] error from fetch(https://firebase-public.firebaseio.com/cli.json, {"headers":{},"method":"GET"}): FetchError: request to https://firebase-public.firebaseio.com/cli.json failed, reason: connect ETIMEDOUT 2600:1901:0:4d00:::443
+[warn] !  Unable to fetch the CLI MOTD and remote config. This is not a fatal error, but may indicate an issue with your network connection. 
+[debug] [2023-12-19T17:04:57.950Z] Failed to fetch MOTD FirebaseError: Failed to make request to https://firebase-public.firebaseio.com/cli.json
+[debug] [2023-12-19T17:05:16.445Z] *** [apiv2] error from fetch(https://accounts.google.com/o/oauth2/token, {"headers":{},"method":"POST","body":{"_overheadLength":543,"_valueLength":208,"_valuesToMeasure":[],"writable":false,"readable":true,"dataSize":0,"maxDataSize":2097152,"pauseStreams":true,"_released":true,"_streams":[],"_currentStream":null,"_insideLoop":false,"_pendingNext":false,"_boundary":"--------------------------310108625475205187703100","_events":{},"_eventsCount":1}}): FetchError: request to https://accounts.google.com/o/oauth2/token failed, reason: connect ETIMEDOUT 2404:6800:4003:c0f::54:443
+[debug] [2023-12-19T17:05:16.446Z] Token Fetch Error: FirebaseError: Failed to make request to https://accounts.google.com/o/oauth2/token
+    at RetryOperation._fn (C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:246:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[debug] [2023-12-19T17:05:16.465Z] >>> [apiv2][query] POST https://auth.firebase.tools/attest [none]
+[debug] [2023-12-19T17:05:16.465Z] >>> [apiv2][body] POST https://auth.firebase.tools/attest {"session_id":"0967a46b-6a6e-402a-a811-fb24a19a0b04"}
+[debug] [2023-12-19T17:05:38.145Z] *** [apiv2] error from fetch(https://auth.firebase.tools/attest, {"headers":{},"method":"POST","body":"{\"session_id\":\"0967a46b-6a6e-402a-a811-fb24a19a0b04\"}"}): FetchError: request to https://auth.firebase.tools/attest failed, reason: connect ETIMEDOUT 2001:4860:4802:34::15:443
+[debug] [2023-12-19T17:05:43.220Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:258:49)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[error] 
+[error] Error: An unexpected error has occurred.
